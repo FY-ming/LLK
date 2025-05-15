@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>欢乐连连看--基础模式</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">
     <rect>
@@ -154,6 +157,14 @@ border-color: rgb(255, 255, 255);</string>
    </widget>
   </widget>
  </widget>
+ <tabstops>
+  <tabstop>BTN_START</tabstop>
+  <tabstop>BTN_PAUSE</tabstop>
+  <tabstop>BTN_TIP</tabstop>
+  <tabstop>BTN_REARRANGE</tabstop>
+  <tabstop>BTN_SETTING</tabstop>
+  <tabstop>BTN_HELP</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
